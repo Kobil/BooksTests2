@@ -107,7 +107,7 @@ public class ExampleTest {
         MAX_LEN_BAG = i;
     }
 
-    //Полунчение перестановки через его порядковый номер и сохранение в cmb;
+    //Получение перестановки через его порядковый номер и сохранение в cmb;
     public void getBagByNumber(int currentComb, int number){
         int point = allCombinations[currentComb].point;
         int lenComb = allCombinations[currentComb].comb.length;
@@ -119,7 +119,7 @@ public class ExampleTest {
         }
     }
 
-    //Полунчение порядкового номера перестановки;
+    //Получение порядкового номера перестановки;
     public int getNumberOfBag(int currentComb, int[] bag){
         int number = 0;
         int point = allCombinations[currentComb].point;
